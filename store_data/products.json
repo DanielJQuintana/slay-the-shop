@@ -1,0 +1,182 @@
+[
+  {
+    "name": "headbutt",
+    "type": "attack",
+    "color": "red",
+    "rarity": "common",
+    "cost": "1",
+    "price": "78",
+    "image": "headbutt.png",
+    "description": "Deal 9 damage. Put a card from your discard pile on top of your draw pile."
+  },
+  {
+    "name": "calculated gamble",
+    "type": "skill",
+    "color": "green",
+    "rarity": "uncommon",
+    "cost": "0",
+    "price": "114",
+    "image": "calculated-gamble.png",
+    "description": "Discard your hand, then draw that many cards. Exhaust."
+  },
+  {
+    "name": "zap",
+    "type": "skill",
+    "color": "blue",
+    "rarity": "common",
+    "cost": "1",
+    "price": "65",
+    "image": "zap.png",
+    "description": "Channel 1 Lightning."
+  },
+  {
+    "name": "dropkick",
+    "type": "attack",
+    "color": "red",
+    "rarity": "uncommon",
+    "cost": "1",
+    "price": "103",
+    "image": "dropkick.png",
+    "description": "Deal 5 damage. If the enemy has Vulnerable, gain 1 Energy and draw 1 card."
+  },
+  {
+    "name": "perseverance",
+    "type": "skill",
+    "color": "purple",
+    "rarity": "uncommon",
+    "cost": "1",
+    "price": "124",
+    "image": "perseverance.png",
+    "description": "Retain. Gain 5 Block. Whenever this card is Retained, increase its Block by 2."
+  },
+  {
+    "name": "meteor strike",
+		"type": "attack",
+		"color": "blue",
+		"rarity": "rare",
+		"cost": "5",
+		"price": "258",
+		"image": "meteor-strike.png",
+		"description": "Deal 24 damage. Channel 3 Plasma."
+  },
+  {
+    "name": "reaper",
+    "type": "attack",
+    "color": "red",
+    "rarity": "rare",
+    "cost": "2",
+    "price": "185",
+    "image": "reaper.png",
+    "description": "Deal 4 damage to ALL enemies. Heal HP equal to unblocked damage. Exhaust."
+  },
+  {
+    "name": "biased cognition",
+    "type": "power",
+    "color": "blue",
+    "rarity": "rare",
+    "cost": "2",
+    "price": "183",
+    "image": "biased-cognition.png",
+    "description": "Gain 4 Focus. At the start of your turn, lose 1 Focus."
+  },
+  {
+    "name": "grand finale",
+		"type": "attack",
+		"color": "green",
+		"rarity": "rare",
+		"cost": "0",
+		"price": "201",
+		"image": "grand-finale.png",
+		"description": "Can only be played if there are no cards in your draw pile. Deal 50 damage to ALL enemies."
+  },
+  {
+    "name": "footwork",
+		"type": "power",
+		"color": "green",
+		"rarity": "uncommon",
+		"cost": "1",
+		"price": "111",
+		"image": "footwork.png",
+		"description": "Gain 2 Dexterity."
+  },
+  {
+    "name": "leap",
+		"type": "skill",
+		"color": "blue",
+		"rarity": "common",
+		"cost": "1",
+		"price": "86",
+		"image": "leap.png",
+		"description": "Gain 9 Block."
+  },
+  {
+    "name": "shrug it off",
+		"type": "skill",
+		"color": "red",
+		"rarity": "common",
+		"cost": "1",
+		"price": "59",
+		"image": "shrug-it-off.png",
+		"description": "Gain 8 Block. Draw 1 card."
+  },
+  {
+    "name": "wallop",
+		"type": "attack",
+		"color": "purple",
+		"rarity": "uncommon",
+		"cost": "2",
+		"price": "132",
+		"image": "wallop.png",
+		"description": "Deal 9 damage. Gain Block equal to unblocked damage dealt."
+  },
+  {
+    "name": "bowling bash",
+		"type": "attack",
+		"color": "purple",
+		"rarity": "common",
+		"cost": "1",
+		"price": "43",
+		"image": "bowling-bash.png",
+		"description": "Deal 7 damage for each enemy in combat."
+  },
+  {
+    "name":"rainbow",
+    "type": "skill",
+    "color": "blue",
+    "rarity": "rare",
+    "cost": "2",
+    "price": "175",
+    "image": "rainbow.png",
+    "description": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark. Exhaust."
+  },
+  {
+    "name": "combust",
+		"type": "power",
+		"color": "red",
+		"rarity": "uncommon",
+		"cost": "1",
+		"price": "99",
+		"image": "combust.png",
+		"description": "At the end of your turn, lose 1 HP and deal 5 damage to ALL enemies."
+  },
+  {
+    "name": "outmaneuver",
+		"type": "skill",
+		"color": "green",
+		"rarity": "common",
+		"cost": "1",
+		"price": "57",
+		"image": "outmaneuver.png",
+		"description": "Next turn, gain 2 Energy."
+  },
+  {
+    "name": "omniscience",
+		"type": "skill",
+		"color": "purple",
+		"rarity": "rare",
+		"cost": "4",
+		"price": "221",
+		"image": "omniscience.png",
+		"description": "Choose a card in your draw pile. Play the chosen card twice and Exhaust it. Exhaust."
+  }
+]

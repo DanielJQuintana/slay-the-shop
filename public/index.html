@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--
+  Name: Daniel Quintana
+  CS 132 Spring 2023
+  Date: June 8th, 2023
+
+  This is the index.html page for my Final Project. It defines the structure for my Slay the Shop! 
+  store page, which sells cards. It has four views: home, product, promotions, and contact. In each, 
+  the user can access different information about the website and its products. Styles are provided 
+  by styles.css, while interactivity is provided in shop.js.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kreon&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Icon credits: https://www.steamgriddb.com/icon/1737 --> 
+  <link rel="icon" href="imgs/stsicon.ico">
+  <script src="utils.js"></script>
+  <script defer="" src="shop.js"></script>
+  <title>Slay the Shop!</title>
+</head>
+<body>
+  <header>
+    <h1>Slay the Shop!</h1>
+    <nav>
+      <ul>
+        <li><button id="home-btn">Home</button></li>
+        <li><button id="promotion-btn">Promotions</button></li>
+        <li><button id="contact-btn">Contact us</button></li>
+      </ul>     
+      <!-- Image credits: https://www.deviantart.com/paperlightbox/art/Shopping-cart-silhouette-697781377
+       © 2017-2023 paperlightbox -->
+      <img src="imgs/cart.png" alt="Silhouette of a cart" id="cart">
+    </nav>
+  </header>
+  <main>
+    <!-- All image credits: https://slay-the-spire.fandom.com/wiki/ © 2017-2023 Mega Crit, LLC.
+    Card artist: Anailis Dorta -->
+    <section id="shop-view">
+      <section id="promotion">
+      </section>
+      <section id="product-section">
+        <div>
+          <h2>For sale:</h2>
+          <section id="products">
+          </section>
+        </div>
+        <aside>
+          <p>CHOOSE OPTIONS:</p>
+          <ul>
+            <li>
+              <label for="filter-name">Name: </label>
+              <input type="text" name="filter-name" id="filter-name"/></li>
+            <li>
+              <label for="filter-type">Type:</label> 
+              <select name="filter-type" id="filter-type">
+                <option value="">Any</option>
+                <option value="attack">Attack</option>
+                <option value="skill">Skill</option>
+                <option value="power">Power</option>
+              </select>
+            </li>
+            <li>
+              <label for="filter-color">Color:</label>
+              <select name="filter-color" id="filter-color">
+                <option value="">Any</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+            </li>
+            <li>
+              <label for="filter-rarity">Rarity:</label>
+              <select name="filter-rarity" id="filter-rarity">
+                <option value="">Any</option>
+                <option value="common">Common</option>
+                <option value="uncommon">Uncommon</option>
+                <option value="rare">Rare</option>
+              </select>
+            </li>
+            <li>
+              <label for="filter-cost">Energy cost:</label>
+              <select name="filter-cost" id="filter-cost">
+                <option value="">Any</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </li>
+          </ul>
+          <button id="filter-btn">Filter</button>
+        </aside>
+      </section>
+    </section>
+    <section id="promotion-view" class="hidden">
+    </section>
+     <!-- All image credits: https://slay-the-spire.fandom.com/wiki/ © 2017-2023 Mega Crit, LLC.
+    Card artist: Anailis Dorta -->
+    <section id="product-view" class="hidden">
+      <button id="return-btn">Return</button>
+      <p>Additional info</p>
+    </section>
+    <section id="contact-view" class="hidden">
+      <h2>Send us a letter!</h2>
+      <section>
+        <form id="letter-form">
+          <p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required/>
+          </p>
+          <p>
+            <label for="guild">Guild: </label>
+            <input type="text" name="guild" id="guild" required/>
+          </p>
+          <p>
+            <label for="type">Reason for contact: </label>
+            <select name="type" id="type" required>
+              <option value="">---Please select a reason---</option>
+              <option value="question">Question</option>
+              <option value="complaint">Complaint</option>
+              <option value="business">Business</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p><label for="message">Letter: </label></p>
+          <textarea name="message" id="message" cols="40" rows="8" minlength="10" required></textarea>
+          <button id="send-letter">Send letter</button>
+        </form>
+      </section>
+      <p id="letter-result"></p>
+    </section>
+    <section id="cart-view" class="hidden">
+      <p>Sorry, this feature doesn't exist yet!</p>
+    </section>
+    <p id="err-display" class="hidden"></p>
+  </main>
+  <footer>
+    <p>Inspired by <a href="https://www.megacrit.com/">Slay the Spire</a></p> 
+    <p>Card image credits: <a href="https://www.megacrit.com/">Megacrit, LLC.</a> © 2017-2023</p>
+    <p>Icon credits: <a href="https://www.steamgriddb.com/icon/1737">darklinkpower</a> &copy; 2019-2023</p>
+    <p>Cart image credits: <a href="https://www.deviantart.com/paperlightbox/art/Shopping-cart-silhouette-697781377">paperlightbox</a> &copy; 2017-2023</p>
+  </footer>
+</body>
+</html>

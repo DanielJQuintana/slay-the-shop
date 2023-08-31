@@ -1,0 +1,193 @@
+/*
+  NAME: Daniel Quintana
+  DATE: 6/8/23
+
+  This file provides styles for our E-commerce store, giving a consistent cartoony, medieval look to 
+  index.html, the store page. It also includes styles to be used dynamically by the relevant
+  JS scripts to introduce interactivity to the page.
+*/
+
+body {
+  font-family: 'Kreon', sans-serif;
+  min-height: 100vh;
+  color: white;
+}
+
+body, #product-section, nav ul, aside ul {
+  justify-content: space-between;
+}
+
+body, #promotion, nav ul p, #product-section {
+  margin: 0px;
+}
+
+body, #promotion {
+  background-color: #596b55;
+}
+
+header, nav, #shop-view, #product-section, body, footer, nav ul, section, article, aside, aside ul, #promotion-view {
+  display: flex;
+}
+
+header, #shop-view, body, aside, aside ul, #product-view, #promotion-view, #contact-view, #contact-view section {
+  flex-direction: column;
+}
+
+#shop-view {
+  margin-bottom: 50px;
+}
+
+header, section, nav, aside, article {
+  align-items: center;
+}
+
+#promotion, article {
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+header, footer, aside {
+  background-color: #394348;
+}
+
+footer, nav, #product-view { 
+  justify-content: space-around;
+}
+
+#product-section, nav {
+  width: 100%
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  width: 300px;   
+}
+
+nav button, #product-view button {
+  background-color: transparent;
+  border-width: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  padding: 0px;
+}
+
+header, a {
+  color: #d2bb4c;
+}
+
+a {
+  text-decoration: none;
+}
+
+header img {
+  height: 30px;
+}
+
+header img, #products img, nav button, #product-view button {
+  cursor: pointer;
+}
+
+h2, p {
+  margin-left: 30px;
+}
+
+p {
+  margin-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+aside ul {
+  height: 60%;
+}
+
+aside li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+select, aside ul {
+  font-size: 10pt;
+}
+
+aside p, #promotion, article {
+  margin-bottom: 0px;
+}
+
+#products {
+  flex-wrap: wrap;
+  margin: 0px 75px;
+  font-size: 14pt;
+}
+
+#products img {
+  height: 250px;
+}
+
+#promotion-view {
+  margin: 20px;
+}
+
+#promotion img, #promotion-view img {
+  height: 150px;
+}
+
+#product-view p {
+  text-decoration: underline;
+}
+
+#product-view ul {
+  width: 600px;
+  padding: 10px;
+  border: 5px white solid;
+  border-radius: 0.35em;
+}
+
+#product-view button {
+  margin-top: 30px
+}
+
+#contact-view p {
+  margin: 10px 0px;
+}
+
+#contact-view section {
+  max-width: 300px;
+}
+
+img {
+  height: 500px;
+}
+
+aside {
+  margin-right: 50px;
+  min-height: 250px;
+  min-width: 200px;
+  padding-bottom: 10px;
+}
+
+#filter-name {
+  width: 60%;
+}
+
+.arrow {
+  width: 10%;
+  height: 10%;
+}
+
+.hidden, #shop-view.hidden, #product-view.hidden, #contact-view.hidden, #promotion-view.hidden {
+  display: none;
+}

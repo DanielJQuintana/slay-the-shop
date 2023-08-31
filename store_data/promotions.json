@@ -1,0 +1,22 @@
+[
+  {
+    "promotion": "NEW PURPLE CARDS 50% OFF!",
+    "image": "wallop.png"
+  },
+  {
+    "promotion": "Buy one power card, get one power card free!",
+    "image": "biased-cognition.png"
+  },
+  {
+    "promotion": "It's a skillful weekend! Free skill card testing at the Merchants' Guild on Saturday and Sunday.",
+    "image": "calculated-gamble.png"
+  },
+  {
+    "promotion": "BLACKSMITH DAY IS TOMORROW. UPGRADE YOUR CARDS TO IMPROVE YOUR CHANCES OF VICTORY.",
+    "image": "armaments.png"
+  },
+  {
+    "promotion": "Get 20% off your first 5 purchases with a Merchants' Guild membership!",
+    "image": "hand-of-greed.png"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "King Arthur",
+    "guild": "Camelot",
+    "type": "question",
+    "message": "How do I purchase a card?",
+    "time": "Thu, 08 Jun 2023 17:22:24 GMT"
+  },
+  {
+    "name": "Eric Bitchboi",
+    "guild": "Kool Kids Klub",
+    "type": "complaint",
+    "message": "Hi my name is Eric Bitchboi. Your shop isnt working. Fix the cart please ;)",
+    "time": "Fri, 09 Jun 2023 08:31:16 GMT"
+  }
+]
